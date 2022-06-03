@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart clone</title>
+    <link rel="stylesheet" href="flipkart_0.css">
+    <link rel="shortcut icon" href="img/" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- making the navigation with logo and search bar -->
+    <nav class="heading_navigation flex" id="navigation_heading">
+        <!-- making the nav container for max width -->
+        <div class="nav_container flex">
+            <div class="logo flex">
+                <a href="../html/index.html" class="flip_logo"><img src="img/logo.png" alt="logo"></a>
+                <a href="../html/index.html" class="anchor plus">Explore<span class="plus_lan">Plus <img
+                            src="img/plus.png" alt="logo"></span></a>
+            </div>
+
+            <!-- making the searchbar -->
+            <div class="search_bar_container">
+                <div class="search_bar">
+                    <form class="search flex">
+                        <input type="text" placeholder="Search For products, brands and more" class="search_box">
+                        <button class="btn_search"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- making the login button -->
+            <div class="login">
+                <a href="../html/#" class="login_btn">login</a>
+                <div class="login_dropdown none">
+                    <ul class="login_dropdown_list">
+                        <li class="login_drop_li sign_li flex">
+                            <p class="new_login">New customer</p>
+                            <a href="../html/#" class="sign_up">Sign Up</a>
+                        </li>
+                        <li class="login_drop_li">My Profile</li>
+                        <li class="login_drop_li">Flipkart Plus Zone</li>
+                        <li class="login_drop_li">Orders</li>
+                        <li class="login_drop_li">Wishlist</li>
+                        <li class="login_drop_li">Rewards</li>
+                        <li class="login_drop_li">Gift Cards</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- making the more button -->
+            <div class="more">
+                <span class="more_lan">More <i class="fa fa-angle-down"></i></span>
+                <div class="more_dropdown none">
+                    <div class="pointer more_pointer"></div>
+                    <ul class="more_dropdown_list">
+                        <li class="more_drop_li"><i class="more_icon fa fa-bell"></i>Notification Preferences</li>
+                        <li class="more_drop_li"><i class="more_icon fa fa-shopping-basket"></i>Sell on Flipkart</li>
+                        <li class="more_drop_li"><i class="more_icon fa fa-question"></i>24X7 Customer Care</li>
+                        <li class="more_drop_li"><i class="more_icon fa fa-line-chart"></i>Advertise</li>
+                        <li class="more_drop_li"><i class="more_icon fa fa-download"></i>Download App</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- making the cart button -->
+            <div class="cart">
+                <span class="cart_lan"><i class="fa fa-shopping-cart"></i> Cart</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- making the heading categories -->
+    <div class="heading_categories flex">
+        <ul class="heading_category_list flex">
+            <li class="heading_category_items">
+                <img src="img/top_offers" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Top Offers</p>
+            </li>
+            <li class="heading_category_items">
+                <img src="img/grocery" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Grocery</p>
+            </li>
+            <li class="heading_category_items">
+                <img src="img/mobiles" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Mobiles</p>
+            </li>
+            <li class="heading_category_items">
+                <img src="img/fashion" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Fashion <i class="fa fa-angle-down"></i></p>
+            </li>
+            <li class="heading_category_items"></li>
+            <li class="heading_category_items">
+                <img src="img/electronics1" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Electronics <i class="fa fa-angle-down"></i></p>
+            </li>
+            <li class="heading_category_items">
+                <img src="img/home" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Home <i class="fa fa-angle-down"></i></p>
+            </li>
+            <li class="heading_category_items">
+                <img src="img/appliances" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Appliances <i class="fa fa-angle-down"></i></p>
+            </li>
+            <li class="heading_category_items">
+                <img src="img/travel" alt="loadinng image" class="cat_image">
+                <p class="heading_item_name">Travel</p>
+            </li>
+            <li class="heading_category_items">
+                <img src="img/beauty" alt="loading image" class="cat_image">
+                <p class="heading_item_name">Beauty, Toys & More <i class="fa fa-angle-down"></i></p>
+            </li>
+        </ul>
+    </div>
+    <main>
+        <div class="container">
+            <div class="wrapper"></div>
+            <hr>
+            <div class="card">
+                <h2>Deals of the Day</h2>
+                <hr>
+                <div class="row">
+                    <div class="column">
+                        <img src="img/electric_kettle" alt="" style="width:100%">
+                        <p>Electric Kettles</p>
+                        <p>Up to 55% off</p>
+                        <p>Top Brands</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/watches" alt="" style="width:100%">
+                        <p> watches</p>
+                        <p>From Rs. 149 + 5% extra</p>
+                        <p>Top Brands</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/watch" alt="" style="width:100%">
+                        <p>Home Decor essentials</p>
+                        <p>Up to 85% off</p>
+                        <p>Grab or Gone</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/kitchen" alt="" style="width:100%">
+                        <p>Dining essentials</p>
+                        <p>From Rs.199</p>
+                        <p>Best Discount!!</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/bed" alt="" style="width:100%">
+                        <p>Top deals on Furnishing</p>
+                        <p>Up to 85% off</p>
+                        <p>Bedsheets,Towel & more</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/wallets" alt="" style="width:100%">
+                        <p>Wallets & Belts</p>
+                        <p>Min. 40% off</p>
+                        <p>Don't miss this deal</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/mobile_acc" alt="" style="width:100%">
+                        <p>Mobile Accessories</p>
+                        <p>10% off</p>
+                        <p>Grab Soon!!</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/bras" alt="" style="width:100%">
+                        <p>Bras,Denims & more</p>
+                        <p>From Rs.99</p>
+                        <p>Clovia, Tokyo Talkies</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <hr>
+            <div class="row1">
+                <div class="column1">
+                    <img src="img/img_ok_1" alt="" style="width:100%">
+                </div>
+                <div class="column1">
+                    <img src="img/img7" alt="" style="width:100%">
+                </div>
+                <div class="column1">
+                    <img src="img/img5.jpg" alt="" style="width:100%">
+                </div>
+                <div class="column1">
+                    <img src="img/img6.jpg" alt="" style="width:100%">
+                </div>
+            </div>
+            <hr>
+            <hr>
+            <div class="card">
+                <h2>Best of Electronics</h2>
+                <hr>
+                <div class="row">
+                    <div class="column">
+                        <img src="img/img01" alt="" style="width:100%">
+                        <p>Home Theatres</p>
+                        <p>Up to 60% off</p>
+                        <p>Sony,F&D & More</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/img02_0" alt="" style="width:100%">
+                        <p> Body Fat Analyzer</p>
+                        <p>From Rs.1599</p>
+                        <p>Dr. Trust,Omron & More</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/img03" alt="" style="width:100%">
+                        <p>Range of Trimmers</p>
+                        <p>Up to 70% off</p>
+                        <p>By Nova</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/img04" alt="" style="width:100%">
+                        <p>Tempered Glass</p>
+                        <p>From Rs.99</p>
+                        <p>For All Top Models</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/img05" alt="" style="width:100%">
+                        <p>Samsung Watch 4</p>
+                        <p>From Rs.15299</p>
+                        <p>Don't miss this deal</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/img06" alt="" style="width:100%">
+                        <p>Best of Hair Dryers</p>
+                        <p>Min. 40% off</p>
+                        <p>Philips,Nova & More</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/img07" alt="" style="width:100%">
+                        <p>Best of Glucometers</p>
+                        <p>From Rs.449</p>
+                        <p>Grab Soon!!</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/img08" alt="" style="width:100%">
+                        <p>Monitors</p>
+                        <p>From Rs.10119</p>
+                        <p>SAMSUNG</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <hr>
+            <div class="row1">
+                <div class="column1">
+                    <img src="img/imga" alt="" style="width:100%">
+                </div>
+                <div class="column1">
+                    <img src="img/imgb" alt="" style="width:100%">
+                </div>
+                <div class="column1">
+                    <img src="img/imgc.jpg" alt="" style="width:100%">
+                </div>
+                <div class="column1">
+                    <img src="img/imgd" alt="" style="width:100%">
+                </div>
+            </div>
+            <hr>
+            <hr>
+            <div class="card">
+                <h2>Bestselling Furniture</h2>
+                <hr>
+                <div class="row">
+                    <div class="column">
+                        <img src="img/img11" alt="" style="width:100%">
+                        <p>Recliner</p>
+                        <p>From Rs.11,999</p>
+                        <p>Cozy Corners</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/img12" alt="" style="width:100%">
+                        <p> Office Tables</p>
+                        <p>From Rs.2,299</p>
+                        <p>Nil,RoyalOak & More</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/img13" alt="" style="width:100%">
+                        <p>Ottoman & Pouffe</p>
+                        <p>From Rs.549</p>
+                        <p>Trendy Collection</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/img15" alt="" style="width:100%">
+                        <p>Office Study Chairs</p>
+                        <p>From Rs.1,890</p>
+                        <p>Best For WFH</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/img14" alt="" style="width:100%">
+                        <p>Office Study Table</p>
+                        <p>From Rs.1,299</p>
+                        <p>WFM like a Boss</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/img16" alt="" style="width:100%">
+                        <p>Bestselling Beds</p>
+                        <p>Up to 70% off</p>
+                        <p>King,Queen & More</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/img17" alt="" style="width:100%">
+                        <p>Collapsible Wardrobe</p>
+                        <p>From Rs.299</p>
+                        <p>Grab Soon!!</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/img18" alt="" style="width:100%">
+                        <p>Bean Bags</p>
+                        <p>From Rs.999</p>
+                        <p>Trendy Collection</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row1">
+                <div class="column1">
+                    <img src="img/imgx.png" alt="" style="width:100%">
+                </div>
+                <div class="column1">
+                    <img src="img/imgy.jpg" alt="" style="width:100%">
+                </div>
+                <div class="column1">
+                    <img src="img/imgz.png" alt="" style="width:100%">
+                </div>
+                <div class="column1">
+                    <img src="img/imgz1" alt="" style="width:100%">
+                </div>
+            </div>
+            <hr>
+            <hr>
+            <div class="card">
+                <h2>Today's Fashion Deals</h2>
+                <hr>
+                <div class="row">
+                    <div class="column">
+                        <img src="img/img20" alt="" style="width:100%">
+                        <p>Bra,Jeans & Dresses</p>
+                        <p>From Rs.99</p>
+                        <p>Ziname,Levi's</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/img21" alt="" style="width:100%">
+                        <p> Sparx,Aadi</p>
+                        <p>From Rs.199</p>
+                        <p>Men's Footwear</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/img22" alt="" style="width:100%">
+                        <p>Never before price</p>
+                        <p>From Rs.149</p>
+                        <p>Trendy Collection</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/img23" alt="" style="width:100%">
+                        <p>Killer,UCB</p>
+                        <p>MIn. 60% off</p>
+                        <p>Shirt,Suits,Blazers</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/img24" alt="" style="width:100%">
+                        <p>Grab or Gone</p>
+                        <p>Min. 60% + Extra 10%</p>
+                        <p>Flying Machine, Levis</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/img25" alt="" style="width:100%">
+                        <p>Safari,Skybags</p>
+                        <p>Flat 60% off</p>
+                        <p>Trendy Suitcases</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/img26" alt="" style="width:100%">
+                        <p>Kids' Combo Packs</p>
+                        <p>Under Rs.399</p>
+                        <p>Grab Soon!!</p>
+                    </div>
+                    <div class="column">
+                        <img src="img/img27" alt="" style="width:100%">
+                        <p>Rufffled Tops, Denims</p>
+                        <p>Min. 60% off</p>
+                        <p>Trendy Collection</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row2">
+                <img src="img/Thank you!.png" alt="">
+            </div>
+        </div>
+
+
+    </main>
+    <footer class="flex-all-center">
+        <p>Copyright &copy; mycart/Amit kumar</p>
+    </footer>
+
+</body>
+
+</html>
